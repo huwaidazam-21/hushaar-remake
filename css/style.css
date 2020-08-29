@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(45deg, #ee7752, #e73c7e);
+}
+
+.hushaar-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-51%, -51%);
+    width: 20vw;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+ul.nav-links > li{
+    padding: 0px 20px;
+    list-style-type: none;
+    display: inline-block;
+}
